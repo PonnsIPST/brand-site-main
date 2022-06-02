@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Complete Stack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/favicon.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="home-whoweare">
+      <!-- Первый экран -->
+      <div class="home">
+        <div class="container">
+          <nav>
+            <div class="menu">
+              <div class="logo">
+                <img class="logo-img" src="images/home/logo.png" alt="" />
+                <p class="logo-text">Complete<br />Stack</p>
+              </div>
+
+              <ul class="menu__list">
+                <li class="menu-item">
+                  <a class="menu-link nav-link" href="#whoweare">Who we are</a>
+                </li>
+                <li class="menu-item">
+                  <a class="menu-link nav-link" href="#whatwedo">What We Do</a>
+                </li>
+                <li class="menu-item">
+                  <a class="menu-link nav-link" href="#howwedo">How We do</a>
+                </li>
+              </ul>
+              <a class="btn contact-link nav-link" href="#contact"
+                >Contact Us</a
+              >
+
+              <!-- For Adaptive -->
+              <div class="menu__btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              <ul class="menu__inner">
+                <li class="menu-item">
+                  <a class="menu-link nav-link" href="#whoweare">Who we are</a>
+                </li>
+                <li class="menu-item">
+                  <a class="menu-link nav-link" href="#whatwedo">What We Do</a>
+                </li>
+                <li class="menu-item">
+                  <a class="menu-link nav-link" href="#howwedo">How We do</a>
+                </li>
+                <li class="menu-item">
+                  <a class="btn contact-link-adpt nav-link" href="#contact"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="home__info">
+            <h1 class="home-text-1">
+              We
+              <img
+                class="title-img-1"
+                src="images/home/title-img-1.png"
+                alt=""
+              />
+              create products <br />
+            </h1>
+            <h1 class="home-text-2">
+              that will
+              <img
+                class="title-img-2"
+                src="images/home/title-img-2.png"
+                alt=""
+              />
+              take your life <br />
+            </h1>
+            <h1 class="home-text-3">
+              to the <span>next level</span>
+              <img
+                class="title-img-3"
+                src="images/home/title-img-3.png"
+                alt=""
+              />
+            </h1>
+            <img
+              class="home__bg-el-1"
+              src="images/home/home__bg-el-1.png"
+              alt=""
+            />
+            <img
+              class="home__bg-el-2"
+              src="images/home/home__bg-el-2.png"
+              alt=""
+            />
+          </div>
+
+          <div class="home__img-block">
+            <img
+              class="home__bg-el-3"
+              src="images/home/home__bg-el-3.png"
+              alt=""
+            />
+            <img
+              class="home__bg-el-4"
+              src="images/home/home__bg-el-4.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="line-wrapper">
+        <img class="line-img" src="images/home/line.png" alt="" />
+      </div>
+
+      <!-- Who We Are -->
+      <div class="whoweare" id="whoweare">
+        <div class="container">
+          <h3 class="block-title">
+            Who We Are
+            <span>Who We Are</span>
+          </h3>
+          <div class="whoweare__info">
+            <div class="whoweare__info-block">
+              <p class="whoweare__info-text">
+                We are a team of young, inventive, skilled and constantly
+                evolving people from technical and creative fields
+              </p>
+              <p class="whoweare__info-text">
+                We adopt the <span>Agile Methodology</span> to the development
+                process
+              </p>
+              <ul class="whoweare__info-list">
+                It helps us ensure:
+                <li class="whoweare__info-list-item">customer satisfaction</li>
+                <li class="whoweare__info-list-item">
+                  superior quality product
+                </li>
+                <li class="whoweare__info-list-item">
+                  high level of management
+                </li>
+                <li class="whoweare__info-list-item">
+                  unparalleled flexibility
+                </li>
+                <li class="whoweare__info-list-item">continuous growth</li>
+              </ul>
+            </div>
+            <img
+              class="whoweare-img"
+              src="images/whoweare/whoweare-img.png"
+              alt="Whoweare-img"
+            />
+          </div>
+          <div class="whoweare__features">
+            <div class="whoweare__features-item">
+              <div class="whoweare__features-btn features-slide-btn-1">
+                <p class="whoweare__features-title">Extensive Experience</p>
+                <img
+                  class="whoweare__features-title-arrow-img features-arrow-img-1"
+                  src="images/whoweare/whoweare-arrow-down-img.svg"
+                  alt=""
+                />
+              </div>
+              <p
+                class="whoweare__features-text whoweare__features-text-slide-1"
+              >
+                <span>International development</span> is what we are based on.
+                At the moment we have experience of working with more than 5
+                countries. We love foreign customers and adapt to any time zone.
+              </p>
+            </div>
+
+            <div class="whoweare__features-item">
+              <div class="whoweare__features-btn features-slide-btn-2">
+                <p class="whoweare__features-title">Creativity</p>
+                <img
+                  class="whoweare__features-title-arrow-img features-arrow-img-2"
+                  src="images/whoweare/whoweare-arrow-down-img.svg"
+                  alt=""
+                />
+              </div>
+              <p
+                class="whoweare__features-text whoweare__features-text-slide-2"
+              >
+                Our creative and technically equipped team crave interesting and
+                original projects and customers with non-standard ideas. We will
+                help you to realize your dream or your need.
+              </p>
+            </div>
+
+            <div class="whoweare__features-item">
+              <div class="whoweare__features-btn features-slide-btn-3">
+                <p class="whoweare__features-title">Flexibility</p>
+                <img
+                  class="whoweare__features-title-arrow-img features-arrow-img-3"
+                  src="images/whoweare/whoweare-arrow-down-img.svg"
+                  alt=""
+                />
+              </div>
+              <p
+                class="whoweare__features-text whoweare__features-text-slide-3"
+              >
+                Do you want to select a pricing model? Okay, we are ready to
+                adjust. Want to propose a large-scale project? Choose time and
+                material. Does your project require a tight deadline? Let’s work
+                under a fixed price contract.
+              </p>
+            </div>
+
+            <a class="gotaproject-link nav-link" href="#contact"
+              >Got a Project?
+              <svg
+                width="103"
+                height="38"
+                viewBox="0 0 103 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M101.768 20.7678C102.744 19.7915 102.744 18.2085 101.768 17.2322L85.8579 1.32233C84.8816 0.34602 83.2986 0.34602 82.3223 1.32233C81.346 2.29864 81.346 3.88155 82.3223 4.85786L96.4645 19L82.3223 33.1421C81.346 34.1184 81.346 35.7014 82.3223 36.6777C83.2986 37.654 84.8816 37.654 85.8579 36.6777L101.768 20.7678ZM0 21.5H100V16.5H0L0 21.5Z"
+                  fill="#58A0A3"
+                />
+              </svg>
+            </a>
+            <img
+              class="whoweare__bg-el-1"
+              src="images/home/home__bg-el-2.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- What We Do -->
+    <div class="whatwedo" id="whatwedo">
+      <div class="container">
+        <h3 class="block-title">
+          What
+          <span>What</span>
+        </h3>
+        <h3 class="block-title whatwedo-title">
+          We Do
+          <span>We Do</span>
+          <img
+            class="whatwedo-decor-el"
+            src="images/whatwedo/whatwedo-decor-el.png"
+            alt=""
+          />
+        </h3>
+
+        <div class="whatwedo__panel">
+          <div class="whatwedo__panel-row">
+            <div class="whatwedo__panel-item">
+              <p class="whatwedo__panel-item-text">Websites and mobile apps</p>
+              <img
+                class="whatwedo__panel-item-img-extra"
+                src="images/whatwedo/whatwedo__panel-img-1.png"
+                alt=""
+              />
+            </div>
+
+            <div class="whatwedo__panel-item">
+              <p class="whatwedo__panel-item-text">Technical support</p>
+              <img
+                class="whatwedo__panel-item-img"
+                src="images/whatwedo/whatwedo__panel-img-2.png"
+                alt=""
+              />
+            </div>
+
+            <div class="whatwedo__panel-item adapt-unav">
+              <p class="whatwedo__panel-item-text">Custom development</p>
+              <img
+                class="whatwedo__panel-item-img"
+                src="images/whatwedo/whatwedo__panel-img-3.png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="whatwedo__panel-row">
+            <div class="whatwedo__panel-item adapt-av">
+              <p class="whatwedo__panel-item-text">Custom development</p>
+              <img
+                class="whatwedo__panel-item-img"
+                src="images/whatwedo/whatwedo__panel-img-3.png"
+                alt=""
+              />
+            </div>
+
+            <div class="whatwedo__panel-item">
+              <p class="whatwedo__panel-item-text">DevOps and security</p>
+              <img
+                class="whatwedo__panel-item-img"
+                src="images/whatwedo/whatwedo__panel-img-4.png"
+                alt=""
+              />
+            </div>
+
+            <div class="whatwedo__panel-item adapt-unav">
+              <p class="whatwedo__panel-item-text">UX/UI Design</p>
+              <img
+                class="whatwedo__panel-item-img"
+                src="images/whatwedo/whatwedo__panel-img-5.png"
+                alt=""
+              />
+            </div>
+
+            <div class="whatwedo__panel-item adapt-unav">
+              <p class="whatwedo__panel-item-text">Branding</p>
+              <img
+                class="whatwedo__panel-item-img"
+                src="images/whatwedo/whatwedo__panel-img-6.png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="whatwedo__panel-row row-adapt-av">
+            <div class="whatwedo__panel-item">
+              <p class="whatwedo__panel-item-text">UX/UI Design</p>
+              <img
+                class="whatwedo__panel-item-img"
+                src="images/whatwedo/whatwedo__panel-img-5.png"
+                alt=""
+              />
+            </div>
+
+            <div class="whatwedo__panel-item">
+              <p class="whatwedo__panel-item-text">Branding</p>
+              <img
+                class="whatwedo__panel-item-img"
+                src="images/whatwedo/whatwedo__panel-img-6.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <p class="whatwedo-text">and more...</p>
+      </div>
+    </div>
+
+    <!-- How We Do -->
+    <div class="howwedo" id="howwedo">
+      <div class="container">
+        <h3 class="block-title">
+          How We Do
+          <span>How We Do</span>
+        </h3>
+        <p class="howwedo-text">
+          We are continuously learning. Every day our developers research new
+          technologies in order to make products more and more modern and
+          fulfilling.
+          <img
+            class="howwedo-bg-el-1"
+            src="images/whatwedo/whatwedo__panel-img-5.png"
+            alt=""
+          />
+        </p>
+
+        <div class="howwedo__panel">
+          <div class="howwedo__panel-row">
+            <div class="howwedo__panel-item">
+              <img
+                class="howwedo__panel-item-img"
+                src="images/howwedo/howwedo__panel-img.png"
+                alt=""
+              />
+              <h4 class="howwedo__panel-item-title">Front-end development</h4>
+              <p class="howwedo__panel-item-text">
+                development of client applications
+              </p>
+              <div class="howwedo__panel-item__tags">
+                <div class="howwedo__panel-item__tags-row">
+                  <div class="howwedo__panel-item__tags-item">React.js</div>
+                  <div class="howwedo__panel-item__tags-item">Redux</div>
+                  <div class="howwedo__panel-item__tags-item">Next.js</div>
+                </div>
+                <div class="howwedo__panel-item__tags-row">
+                  <div class="howwedo__panel-item__tags-item">Gatsby.js</div>
+                  <div class="howwedo__panel-item__tags-item">TypeScript</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="howwedo__panel-item">
+              <img
+                class="howwedo__panel-item-img"
+                src="images/howwedo/howwedo__panel-img.png"
+                alt=""
+              />
+              <h4 class="howwedo__panel-item-title">Back-end development</h4>
+              <p class="howwedo__panel-item-text">
+                development of server applications
+              </p>
+              <div class="howwedo__panel-item__tags">
+                <div class="howwedo__panel-item__tags-row">
+                  <div class="howwedo__panel-item__tags-item">Node.js</div>
+                  <div class="howwedo__panel-item__tags-item">Nest.js</div>
+                  <div class="howwedo__panel-item__tags-item">TypeORM</div>
+                </div>
+                <div class="howwedo__panel-item__tags-row">
+                  <div class="howwedo__panel-item__tags-item">Sequelize</div>
+                  <div class="howwedo__panel-item__tags-item">Swagger</div>
+                  <div class="howwedo__panel-item__tags-item">TypeScript</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="howwedo__panel-item">
+              <img
+                class="howwedo__panel-item-img"
+                src="images/howwedo/howwedo__panel-img.png"
+                alt=""
+              />
+              <h4 class="howwedo__panel-item-title">Machine Learning</h4>
+              <p class="howwedo__panel-item-text">
+                application development using machine learning and artificial
+                intelligence
+              </p>
+              <div class="howwedo__panel-item__tags">
+                <div class="howwedo__panel-item__tags-row">
+                  <div class="howwedo__panel-item__tags-item">
+                    Speech Recogn.
+                  </div>
+                  <div class="howwedo__panel-item__tags-item">Python</div>
+                  <div class="howwedo__panel-item__tags-item">Flask</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="howwedo__panel-row">
+            <div class="howwedo__panel-item">
+              <img
+                class="howwedo__panel-item-img"
+                src="images/howwedo/howwedo__panel-img.png"
+                alt=""
+              />
+              <h4 class="howwedo__panel-item-title">Analytics</h4>
+              <p class="howwedo__panel-item-text">
+                collecting, analyzing, designing and documenting requirements
+              </p>
+              <div class="howwedo__panel-item__tags">
+                <div class="howwedo__panel-item__tags-row">
+                  <div class="howwedo__panel-item__tags-item">IDEF</div>
+                  <div class="howwedo__panel-item__tags-item">UML</div>
+                  <div class="howwedo__panel-item__tags-item">ERD</div>
+                  <div class="howwedo__panel-item__tags-item">Use Case</div>
+                </div>
+                <div class="howwedo__panel-item__tags-row">
+                  <div class="howwedo__panel-item__tags-item">Mind Map</div>
+                  <div class="howwedo__panel-item__tags-item">SRS</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="howwedo__panel-item">
+              <img
+                class="howwedo__panel-item-img"
+                src="images/howwedo/howwedo__panel-img.png"
+                alt=""
+              />
+              <h4 class="howwedo__panel-item-title">Testing</h4>
+              <p class="howwedo__panel-item-text">
+                comprehensive testing of web and mobile applications
+              </p>
+              <div class="howwedo__panel-item__tags">
+                <div class="howwedo__panel-item__tags-row">
+                  <div class="howwedo__panel-item__tags-item">Cypress</div>
+                  <div class="howwedo__panel-item__tags-item">Jest</div>
+                  <div class="howwedo__panel-item__tags-item">Mocha</div>
+                </div>
+                <div class="howwedo__panel-item__tags-row">
+                  <div class="howwedo__panel-item__tags-item">Postman</div>
+                  <div class="howwedo__panel-item__tags-item">Insomnia</div>
+                  <div class="howwedo__panel-item__tags-item">Unit</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="howwedo__panel-item">
+              <img
+                class="howwedo__panel-item-img"
+                src="images/howwedo/howwedo__panel-img.png"
+                alt=""
+              />
+              <h4 class="howwedo__panel-item-title">Database</h4>
+              <p class="howwedo__panel-item-text">data usage and storage</p>
+              <div class="howwedo__panel-item__tags">
+                <div class="howwedo__panel-item__tags-row">
+                  <div class="howwedo__panel-item__tags-item">Firebase</div>
+                  <div class="howwedo__panel-item__tags-item">MongoDB</div>
+                  <div class="howwedo__panel-item__tags-item">PostgreSQL</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="howwedo__panel-row">
+            <div class="howwedo__panel-item">
+              <img
+                class="howwedo__panel-item-img"
+                src="images/howwedo/howwedo__panel-img.png"
+                alt=""
+              />
+              <h4 class="howwedo__panel-item-title">DevOps</h4>
+              <p class="howwedo__panel-item-text">project deployment</p>
+              <div class="howwedo__panel-item__tags">
+                <div class="howwedo__panel-item__tags-row">
+                  <div class="howwedo__panel-item__tags-item">Nginx</div>
+                  <div class="howwedo__panel-item__tags-item">Ansible</div>
+                  <div class="howwedo__panel-item__tags-item">GitLab CI/CD</div>
+                </div>
+                <div class="howwedo__panel-item__tags-row">
+                  <div class="howwedo__panel-item__tags-item">
+                    Docker Compose
+                  </div>
+                  <div class="howwedo__panel-item__tags-item">K8s</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="howwedo__panel-item">
+              <img
+                class="howwedo__panel-item-img"
+                src="images/howwedo/howwedo__panel-img.png"
+                alt=""
+              />
+              <h4 class="howwedo__panel-item-title">Mobile App Development</h4>
+              <p class="howwedo__panel-item-text">
+                development of a client application on mobile devices
+              </p>
+              <div class="howwedo__panel-item__tags">
+                <div class="howwedo__panel-item__tags-row">
+                  <div class="howwedo__panel-item__tags-item">React Native</div>
+                  <div class="howwedo__panel-item__tags-item">Flutter</div>
+                  <div class="howwedo__panel-item__tags-item">Swift</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="howwedo__panel-item">
+              <img
+                class="howwedo__panel-item-img"
+                src="images/howwedo/howwedo__panel-img.png"
+                alt=""
+              />
+              <h4 class="howwedo__panel-item-title">Design</h4>
+              <p class="howwedo__panel-item-text">
+                development of UX/UI design of web applications and prototypes
+              </p>
+              <div class="howwedo__panel-item__tags">
+                <div class="howwedo__panel-item__tags-row">
+                  <div class="howwedo__panel-item__tags-item">Figma</div>
+                  <div class="howwedo__panel-item__tags-item">
+                    Adobe Photoshop
+                  </div>
+                </div>
+                <div class="howwedo__panel-item__tags-row">
+                  <div class="howwedo__panel-item__tags-item">
+                    Adobe Illustrator
+                  </div>
+                  <div class="howwedo__panel-item__tags-item">Corel Draw</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Porfolio -->
+    <div class="portfolio">
+      <div class="container">
+        <h3 class="block-title">
+          Portfolio
+          <span>Portfolio</span>
+          <img
+            class="portfolio-decor-el-1"
+            src="images/portfolio/portfolio-decor-el-1.png"
+            alt=""
+          />
+        </h3>
+        <div class="portfolio__slider">
+          <div class="portfolio__slider-item">
+            <div class="portfolio__slider-item-inner">
+              <div class="portfolio__slider-item-info">
+                <p class="portfolio__slider-item-title">CovLab</p>
+                <div class="portfolio__slider-item-text">
+                  A website selling covid tests. The site provides an
+                  opportunity to purchase various test kits online and the
+                  detailed description of their use.
+                </div>
+                <div class="portfolio__slider-nav">
+                  <p class="portfolio__slider-item-num">01/05</p>
+                  <button class="portfolio__sldier-arrow-btn">
+                    <img
+                      class="portfolio__slider-arrow"
+                      src="images/portfolio/slider-arrow.svg"
+                      alt=""
+                    />
+                  </button>
+                </div>
+              </div>
+              <img
+                class="portfolio__slider-item-img"
+                src="images/portfolio/portfolio__sldier-img-1.png"
+                alt="Project-img"
+              />
+            </div>
+          </div>
+
+          <div class="portfolio__slider-item">
+            <div class="portfolio__slider-item-inner">
+              <div class="portfolio__slider-item-info">
+                <p class="portfolio__slider-item-title">Restority</p>
+                <div class="portfolio__slider-item-text">
+                  A platform for the creating, visualization and storage of
+                  user’s autobiographical stories. This platform is created for
+                  the older people who want to preserve the memories for their
+                  family's future generations. There is also a mobile version
+                  and a tablet version.
+                </div>
+                <div class="portfolio__slider-nav">
+                  <p class="portfolio__slider-item-num">02/05</p>
+                  <button class="portfolio__sldier-arrow-btn">
+                    <img
+                      class="portfolio__slider-arrow"
+                      src="images/portfolio/slider-arrow.svg"
+                      alt=""
+                    />
+                  </button>
+                </div>
+              </div>
+              <img
+                class="portfolio__slider-item-img"
+                src="images/portfolio/portfolio__sldier-img-2.png"
+                alt="Project-img"
+              />
+            </div>
+          </div>
+
+          <div class="portfolio__slider-item">
+            <div class="portfolio__slider-item-inner">
+              <div class="portfolio__slider-item-info">
+                <p class="portfolio__slider-item-title">Bullion Network</p>
+                <div class="portfolio__slider-item-text">
+                  A platform for buying and selling gold and silver bullion in
+                  Melbourne. In addition to the shop page, the site displays
+                  live prices of the best precious metals and the information
+                  about them. This data is constantly updated.
+                </div>
+                <div class="portfolio__slider-nav">
+                  <p class="portfolio__slider-item-num">03/05</p>
+                  <button class="portfolio__sldier-arrow-btn">
+                    <img
+                      class="portfolio__slider-arrow"
+                      src="images/portfolio/slider-arrow.svg"
+                      alt=""
+                    />
+                  </button>
+                </div>
+              </div>
+              <img
+                class="portfolio__slider-item-img"
+                src="images/portfolio/portfolio__sldier-img-3.png"
+                alt="Project-img"
+              />
+            </div>
+          </div>
+
+          <div class="portfolio__slider-item">
+            <div class="portfolio__slider-item-inner">
+              <div class="portfolio__slider-item-info">
+                <p class="portfolio__slider-item-title">PPData</p>
+                <div class="portfolio__slider-item-text">
+                  A web service that allow to display the dynamics of changes in
+                  tree vegetation over time to monitor the condition of trees
+                  and prepare a package of measures for their conservation. A
+                  map is displayed with labels of forest areas and the
+                  information for each tree.
+                </div>
+                <div class="portfolio__slider-nav">
+                  <p class="portfolio__slider-item-num">04/05</p>
+                  <button class="portfolio__sldier-arrow-btn">
+                    <img
+                      class="portfolio__slider-arrow"
+                      src="images/portfolio/slider-arrow.svg"
+                      alt=""
+                    />
+                  </button>
+                </div>
+              </div>
+              <img
+                class="portfolio__slider-item-img"
+                src="images/portfolio/portfolio__sldier-img-4.png"
+                alt="Project-img"
+              />
+            </div>
+          </div>
+
+          <div class="portfolio__slider-item">
+            <div class="portfolio__slider-item-inner">
+              <div class="portfolio__slider-item-info">
+                <p class="portfolio__slider-item-title">IProxy</p>
+                <div class="portfolio__slider-item-text">
+                  A server application that acts as an intermediary between a
+                  client requesting a resource and the server providing that
+                  resource. A distinguishing feature of “IProxy” is the
+                  substitution of OS Fingerprints in real time.
+                </div>
+                <div class="portfolio__slider-nav">
+                  <p class="portfolio__slider-item-num">05/05</p>
+                  <button class="portfolio__sldier-arrow-btn">
+                    <img
+                      class="portfolio__slider-arrow"
+                      src="images/portfolio/slider-arrow.svg"
+                      alt=""
+                    />
+                  </button>
+                </div>
+              </div>
+              <img
+                class="portfolio__slider-item-img"
+                src="images/portfolio/portfolio__sldier-img-5.png"
+                alt="Project-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="modal" id="form_modal">
+      <div class="contents_wrapper" id="modal_contents_wrapper">
+        <div class="loading_contents"><div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+        <div class="contents">
+          <p>Form submitted successfully</p>
+          <button onclick="closeModal()" class="btn ok_btn">Ok</button>
+        </div>
+        <div class="err_contents">
+          <p>Error!</p>
+          <button onclick="closeModal()" class="btn ok_btn">Ok</button>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <div class="container">
+        <h3 class="contact-title">Share your idea</h3>
+        <div class="contact__inner">
+          <div class="contact__info">
+            <p class="contact-subtitle">Contacts</p>
+            <div class="contact__info-links">
+              <a
+                class="contact__info-mail"
+                href="mailto:hello@completestack.com.au"
+                >hello@completestack.com.au</a
+              >
+              <br />
+              <a class="contact__info-tel" href="tel:+618225554174"
+                >+61 822 555 41 74</a
+              >
+            </div>
+          </div>
+
+          <div class="contact__form-wrapper">
+            <p class="contact-subtitle form-subtitle">
+              Leave your application in the form and we will definitely contact
+              you
+            </p>
+            <form class="contact__form" id="mailForm">
+              <div class="contact__form-input-title">Name</div>
+              <input
+                class="contact__form-input contact__input-text"
+                type="text"
+                placeholder="Your Name"
+                name="name"
+                required
+                minlength="3"
+                maxlength="40"
+              />
+
+              <div class="contact__form-input-title">Email</div>
+              <input
+                class="contact__form-input contact__input-text"
+                type="email"
+                placeholder="Your Email"
+                name="email"
+                required
+                maxlength="40"
+              />
+
+              <div class="contact__form-input-title">Phone</div>
+              <input
+                class="contact__form-input contact__input-text"
+                type="tel"
+                placeholder="Your Phone"
+                name="phone"
+                required
+                maxlength="30"
+              />
+
+              <div class="contact__form-input-title">Leave a comment</div>
+              <textarea
+                class="contact__form-input contact__input-text contact__input-comment"
+                placeholder="Comment"
+                name="comment"
+                required
+              ></textarea>
+              <input
+                id="hidden_input_file"
+                type="hidden"
+                name="url"
+
+              ></input>
+              <p class="contact__form-text">or</p>
+              <div class="contact__input-file">
+                <label class="contact__input-file-label">
+                  <span id="file_label" class="contact__input-file-text">Download file</span>
+                  <input
+                    id="input_file"
+                    type="file"
+                    name="file"
+                    required
+                  />
+                </label>
+              </div>
+
+            </form>
+            <button class="btn contact__form-btn" type="submit" form="mailForm" id="mailFormSubmit">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/form.js"></script>
+  </body>
+</html>
