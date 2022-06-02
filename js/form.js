@@ -44,6 +44,7 @@ input_file.onchange = async function(e) {
     if(result.status === 200){
         $('.contents_wrapper').addClass('success');
         e.target.reset();
+        document.getElementById('file_label').innerHTML = '';
     }else{
         $('.contents_wrapper').addClass('err');
     }
