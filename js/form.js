@@ -23,13 +23,17 @@ input_file.onchange = async function(e) {
     e.preventDefault();
     $('.contents_wrapper').removeClass('err');
     $('.contents_wrapper').removeClass('success');
-    let mailformdata = {
-        "name": mailForm.name.value,
-        "email": mailForm.email.value,
-        "phone": mailForm.phone.value,
-        "comment": mailForm.comment.value,
-        "url": mailForm.url.value
-      };
+      let mailformdata = {
+          "name": mailForm.name.value,
+          "email": mailForm.email.value,
+          "phone": mailForm.phone.value
+        };
+        if(mailForm.comment.value){
+          mailformdata.comment = mailForm.comment.value;
+        }
+        if(mailForm.url.value){
+          mailformdata.url = mailForm.url.value;
+        }
     $('#form_modal').addClass('active');
     $('.contents_wrapper').addClass('loading');
     let response = await fetch('https://api.brand.australia.ipst-dev.com/mail', {
